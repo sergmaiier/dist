@@ -1,0 +1,203 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1120px) {
+  .list-address {
+    margin: 0;
+  }
+  .footer .column {
+    text-align: center;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /*----header----*/
+  .header .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fixed-nav-bar {
+    position: relative;
+  }
+  header {
+    height: 500px;
+  }
+  .logo {
+    display: none;
+  }
+  .top-menu li {
+    width: 100%;
+    height: auto !important;
+  }
+  .top-menu > li {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .top-menu > li > a {
+    padding: 18px;
+  }
+  .submenu,
+  .submenu-standart {
+    position: relative;
+    display: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.02);
+  }
+  .submenu-standart {
+    padding: 10px 0;
+  }
+  .submenu > li {
+    border-right: none;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 18px;
+  }
+  .submenu h3 {
+    margin: 0 0 10px;
+  }
+  .submenu .image-header {
+    margin: 10px 0;
+  }
+  .submenu li:last-of-type {
+    border-bottom: none;
+  }
+  .top-menu > li:hover .submenu,
+  .top-menu > li:hover .submenu-standart {
+    display: block;
+  }
+  input:focus {
+    width: 200px;
+    z-index: 1;
+    border: 2px solid #d1d5d8;
+    background-color: #ffffff;
+    top: 0;
+    right: 0;
+  }
+  .footer .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .section-masonry-body .grid-item img {
+    padding: 15px;
+  }
+  .column-address {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .card-contact {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .list-address .list-item .card-address {
+    padding-left: 30px;
+    text-align: center;
+  }
+  .list-address {
+    margin: 0 auto;
+  }
+  .footer-body h3 {
+    text-align: center;
+  }
+  .footer .card-about {
+    width: 250px;
+    text-align: center;
+  }
+  .button-group {
+    border: 2px solid #bdc3c7;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    width: 230px;
+    margin: 30px auto;
+    background: #F3F9FD;
+  }
+  .section-masonry-body .button-item:nth-child(-n+5) {
+    border: 2px solid #bdc3c7;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .section-masonry-body .grid-item img {
+    padding: 5px;
+  }
+  .breadcrumbs {
+    display: none;
+  }
+  .to-top {
+    position: absolute;
+    z-index: 9999;
+    top: -40px;
+    right: 10px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Custom, iPhone Retina */
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
